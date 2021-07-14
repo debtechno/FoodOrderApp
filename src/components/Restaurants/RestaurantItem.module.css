@@ -1,0 +1,32 @@
+.restaurant {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .restaurant h3  {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .place {
+    font-style: italic;
+  }
+
+  .restaurant h3 button {
+    border: none;
+    font-size: larger;
+    background-color: #d67e5b;
+    cursor: pointer;
+    
+  }
+
+  .restaurant h3 button:hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
+  

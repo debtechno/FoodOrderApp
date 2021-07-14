@@ -1,0 +1,74 @@
+.form {
+    margin: 1rem 0;
+    /* height: 7rem;
+    overflow: auto; */
+    /* text-align: center; */
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  
+  .control input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .actions {
+    display: flex;
+    /* justify-content:space-evenly; */
+    gap: 1rem;
+    
+  }
+  
+  .actions button {
+    font: inherit;
+    color: white;
+    cursor: pointer;
+    background-color: #2a5d3a;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem; 
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #ffe6dc;
+  }
+  
+  .actions .submit {
+    border: none;
+    background-color: #2a5d3a;
+    color: white;
+  }
+  
+  .actions .submit:hover,
+  .actions .submit:active {
+    background-color: #7a2706;
+  }
+  
+  .invalid label {
+    color: #ca3e51;
+  }
+  
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+
+  .userExists {
+    color: red;
+  }
